@@ -6,7 +6,7 @@
             width: 100%;
             height: auto;
             grid-template-columns: repeat(7, 1fr);
-            grid-template-rows: repeat(8,5vw);
+            grid-template-rows: repeat(20,7vw);
             grid-auto-rows: 5vw;
             grid-gap: 15px;
 
@@ -14,19 +14,73 @@
                 grid-column-start: 1;
                 grid-column-end:3;
                 grid-row-start: 1;
-                grid-row-end:6;
+                grid-row-end:5;
 
                 &__galeryTwo{
                     grid-column-start: 3;
                     grid-column-end: 5;
                     grid-row-start: 1;
-                    grid-row-end: 6;
+                    grid-row-end: 5;
 
                     &__galeryThree{
                         grid-column-start: 5;
-                        grid-column-end:7;
+                        grid-column-end:8;
                         grid-row-start: 1;
-                        grid-row-end: 8;
+                        grid-row-end: 7;
+
+                        &__galeryFour{
+                            grid-column-start: 1;
+                            grid-column-end: 3;
+                            grid-row-start: 5;
+                            grid-row-end: 9;
+
+                            &__galeryFive{
+                                grid-column-start: 3;
+                                grid-column-end:5;
+                                grid-row-start: 5;
+                                grid-row-end: 9;
+
+                                &__galerySix{
+                                    grid-column-start: 5;
+                                    grid-column-end:8;
+                                    grid-row-start: 7;
+                                    grid-row-end:14;
+
+                                    &__galerySeven{
+                                        grid-column-start: 1;
+                                        grid-column-end: 5;
+                                        grid-row-start: 9;
+                                        grid-row-end:14;
+                                        &__galeryEight{
+                                            grid-column-start: 4;
+                                            grid-column-end:6;
+                                            grid-row-start:14;
+                                            grid-row-end:18;
+                                            &__galeryNine{
+                                                grid-column-start: 6;
+                                                grid-column-end:8;
+                                                grid-row-start:14;
+                                                grid-row-end:18;
+
+                                                &__galeryTen{
+                                                    grid-column-start:1;
+                                                    grid-column-end:4;
+                                                    grid-row-start:14;
+                                                    grid-row-end:20;
+
+                                                }
+
+                                            }
+                                        }
+                                        
+
+                                    }
+                                    
+                                }
+
+
+                            }
+                        }
                     }
 
                 }
@@ -36,6 +90,6 @@
 }
 .image{
     width: 100%;
-    max-height: 100%;
+    min-height: 100%;
     object-fit: cover;
 }
