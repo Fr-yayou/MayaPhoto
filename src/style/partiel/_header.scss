@@ -1,0 +1,29 @@
+
+.nav-container{
+    position: fixed;
+    height: 100%;
+    width: 300px;
+    margin-top: 150px;
+
+    &__link{
+        margin-left:50px;
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+
+        &__li{
+            margin-bottom: 20px;
+
+            &__home{
+                text-decoration: none;
+
+    
+            }
+            &__home:hover{
+                color: black;
+            }
+        }
+
+
+    }
+}

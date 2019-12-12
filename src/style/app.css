@@ -1,0 +1,138 @@
+.nav-container {
+  position: fixed;
+  height: 100%;
+  width: 300px;
+  margin-top: 150px;
+}
+
+.nav-container__link {
+  margin-left: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  list-style-type: none;
+}
+
+.nav-container__link__li {
+  margin-bottom: 20px;
+}
+
+.nav-container__link__li__home {
+  text-decoration: none;
+}
+
+.nav-container__link__li__home:hover {
+  color: black;
+}
+
+.about-container {
+  margin-left: 300px;
+}
+
+.lifeStyle-container {
+  margin-left: 300px;
+  margin-right: 50px;
+}
+
+.lifeStyle-container__grid {
+  display: -ms-grid;
+  display: grid;
+  width: 100%;
+  height: auto;
+  -ms-grid-columns: (1fr)[7];
+      grid-template-columns: repeat(7, 1fr);
+  -ms-grid-rows: (5vw)[8];
+      grid-template-rows: repeat(8, 5vw);
+  grid-auto-rows: 5vw;
+  grid-gap: 15px;
+}
+
+.lifeStyle-container__grid__galeryOne {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 3;
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  grid-row-end: 6;
+}
+
+.lifeStyle-container__grid__galeryOne__galeryTwo {
+  -ms-grid-column: 3;
+      grid-column-start: 3;
+  grid-column-end: 5;
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  grid-row-end: 6;
+}
+
+.lifeStyle-container__grid__galeryOne__galeryTwo__galeryThree {
+  -ms-grid-column: 5;
+      grid-column-start: 5;
+  grid-column-end: 7;
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  grid-row-end: 8;
+}
+
+.image {
+  width: 100%;
+  max-height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.portrait-container {
+  margin-left: 300px;
+}
+
+.contact-container {
+  margin-left: 300px;
+  margin-right: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container-description-text {
+  width: 30%;
+  margin-top: 60px;
+}
+
+.container-form {
+  width: 40%;
+  margin-top: 60px;
+}
+
+.container-form__submit {
+  margin-left: 20px;
+}
+
+.container-form__submit__containerLabel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#containerName {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #f2f2f2;
+  color: #323232;
+}
+/*# sourceMappingURL=app.css.map */

@@ -1,0 +1,29 @@
+.contact-container{
+    margin-left:300px;
+    margin-right:50px;
+    display: flex;
+
+}
+
+.container-description-text{
+    width: 30%;
+    margin-top: 60px;
+}
+
+.container-form{
+    width: 40%;
+    margin-top: 60px;
+
+    &__submit{
+        margin-left: 20px;
+
+        &__containerLabel{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
+
+#containerName{
+    display: flex;
+}
