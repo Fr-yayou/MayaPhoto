@@ -18,15 +18,39 @@
 }
 
 .nav-container__link__li {
-  margin-bottom: 20px;
+  margin-bottom: 35px;
 }
 
 .nav-container__link__li__home {
   text-decoration: none;
 }
 
+.nav-container__link__li__home__icon {
+  margin-left: 50px;
+}
+
 .nav-container__link__li__home:hover {
   color: black;
+}
+
+#facebook:hover {
+  height: 20px;
+}
+
+#instagram {
+  margin-left: 10px;
+}
+
+#instagram:hover {
+  height: 20px;
+}
+
+#linkdin {
+  margin-left: 10px;
+}
+
+#linkdin:hover {
+  height: 20px;
 }
 
 .about-container {
@@ -139,6 +163,14 @@
   -ms-grid-row: 14;
       grid-row-start: 14;
   grid-row-end: 20;
+}
+
+.lifeStyle-container__grid__galeryOne__galeryTwo__galeryThree__galeryFour__galeryFive__galerySix__galerySeven__galeryEight__galeryNine__galeryTen__galeryEleven {
+  -ms-grid-column: 5;
+      grid-column-start: 5;
+  grid-column-end: 8;
+  -ms-grid-row: 18;
+      grid-row-start: 18;
 }
 
 .image {

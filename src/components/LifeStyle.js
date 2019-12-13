@@ -9,6 +9,7 @@ import Image7 from '../assets/lifeStyle-Compress/DSC_0318.jpg';
 import Image8 from '../assets/lifeStyle-Compress/DSC_0218-2.jpg';
 import Image9 from '../assets/lifeStyle-Compress/IMG_0056.jpg';
 import Image10 from '../assets/lifeStyle-Compress/fullsizeoutput_1df1.jpg';
+import Image11 from '../assets/lifeStyle-Compress/2.png';
 
 function LifeStyle() {
     return (
@@ -43,6 +44,9 @@ function LifeStyle() {
                 </figure>
                 <figure className='lifeStyle-container__grid__galeryOne__galeryTwo__galeryThree__galeryFour__galeryFive__galerySix__galerySeven__galeryEight__galeryNine__galeryTen'>
                     <img className='image' src={Image10} alt='picture-three'></img>
+                </figure>
+                <figure className='lifeStyle-container__grid__galeryOne__galeryTwo__galeryThree__galeryFour__galeryFive__galerySix__galerySeven__galeryEight__galeryNine__galeryTen__galeryEleven'>
+                    <img className='image' src={Image11} alt='picture-three'></img>
                 </figure>
             </div>
         </div>

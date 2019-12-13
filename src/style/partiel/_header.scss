@@ -12,18 +12,42 @@
         list-style-type: none;
 
         &__li{
-            margin-bottom: 20px;
+            margin-bottom: 35px;
 
             &__home{
                 text-decoration: none;
 
-    
+                &__icon{
+                    margin-left:50px;
+                }
+
+
             }
             &__home:hover{
                 color: black;
+
             }
         }
 
 
     }
+}
+
+#facebook:hover{
+    height: 20px;
+}
+
+#instagram{
+    margin-left:10px;
+
+}
+#instagram:hover{
+    height:20px;
+
+}
+#linkdin{
+    margin-left:10px;
+}
+#linkdin:hover{
+    height:20px
 }

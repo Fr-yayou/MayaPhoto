@@ -4,7 +4,8 @@ function Contact() {
     return (
         <div className='contact-container'>
             <div className='container-description-text'>
-                <p>Hello from text container</p>
+                <p>Thank you for taking interest in working with me! My sessions start at $250.00. Please tell me a little more about yourself and what you hope to capture. You may either fill out the contact form or email me at mayacmartin@gmail.com
+</p>
             </div>
             <div className='container-form'>
                 <form className='container-form__submit'>
