@@ -7,7 +7,7 @@
         width: 100%;
         height: auto;
         grid-template-columns: repeat(10, 1fr);
-        grid-template-rows: repeat(30,5vw);
+        grid-template-rows: repeat(35,5vw);
         grid-gap: 15px;
 
         &__galeryOneP{
@@ -75,6 +75,33 @@
                                                 grid-column-end: 7;
                                                 grid-row-start: 19;
                                                 grid-row-end:25;
+
+                                                &__galeryTwelve{
+                                                    grid-column-start: 1;
+                                                    grid-column-end: 5;
+                                                    grid-row-start: 25;
+                                                    grid-row-end:33;
+
+                                                    &__galeryTheirteen{
+                                                        grid-column-start: 5;
+                                                        grid-column-end: 8;
+                                                        grid-row-start: 25;
+                                                        grid-row-end: 31;
+
+                                                        &__galeryFourteen{
+                                                            grid-column-end: 11;
+                                                            grid-column-start: 8;
+                                                            grid-row-start: 25;
+                                                            grid-row-end: 31;
+
+                                                            &__galeryFifteen{
+                                                                grid-column-start: 5;
+                                                                grid-column-end: 11;
+                                                            }
+
+                                                        }
+                                                    }
+                                                }
                     
 
                                             }

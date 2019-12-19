@@ -10,6 +10,10 @@ import ImageP8 from '../assets/Portrait-Compress/DSC_0154.jpg'
 import ImageP9 from '../assets/Portrait-Compress/DSC_0156.jpg'
 import ImageP10 from '../assets/Portrait-Compress/DSC_0231.jpg'
 import ImageP11 from '../assets/Portrait-Compress/DSC_0382.jpg'
+import ImageP12 from '../assets/Portrait-Compress/DSC_0684.jpg'
+import ImageP13 from '../assets/Portrait-Compress/fullsizeoutput_1b7d.jpg'
+import ImageP14 from '../assets/Portrait-Compress/fullsizeoutput_1ce8.jpg';
+import ImageP15 from '../assets/lifeStyle-Compress/2.png';
 
 function Portrait() {
     return (
@@ -47,6 +51,18 @@ function Portrait() {
                 </div>
                 <div className='portrait-container__grid__galeryOneP__galeryTwoP__galeryThreeP__galeryFourP__galeryFiveP__galerySixP__galerySevenP__galeryEightP__galeryNineP__galeryTenP__galeryElevenP'>
                     <img className='image' src={ImageP11} alt='picture P11'/>
+                </div>
+                <div className='portrait-container__grid__galeryOneP__galeryTwoP__galeryThreeP__galeryFourP__galeryFiveP__galerySixP__galerySevenP__galeryEightP__galeryNineP__galeryTenP__galeryElevenP__galeryTwelve'>
+                    <img className='image' src={ImageP12} alt='picture P12'/>
+                </div>
+                <div className='portrait-container__grid__galeryOneP__galeryTwoP__galeryThreeP__galeryFourP__galeryFiveP__galerySixP__galerySevenP__galeryEightP__galeryNineP__galeryTenP__galeryElevenP__galeryTwelve__galeryTheirteen'>
+                    <img className='image' src={ImageP13} alt='picture P13'/>
+                </div>
+                <div className='portrait-container__grid__galeryOneP__galeryTwoP__galeryThreeP__galeryFourP__galeryFiveP__galerySixP__galerySevenP__galeryEightP__galeryNineP__galeryTenP__galeryElevenP__galeryTwelve__galeryTheirteen__galeryFourteen'>
+                    <img className='image' src={ImageP14} alt='picture P14'/>
+                </div>
+                <div className='portrait-container__grid__galeryOneP__galeryTwoP__galeryThreeP__galeryFourP__galeryFiveP__galerySixP__galerySevenP__galeryEightP__galeryNineP__galeryTenP__galeryElevenP__galeryTwelve__galeryTheirteen__galeryFourteen__galeryFifteen'>
+                    <img className='image' src={ImageP15} alt='picture P15'/>
                 </div>
             </div>
         </div>

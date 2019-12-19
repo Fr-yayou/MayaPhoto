@@ -69,8 +69,8 @@
   height: auto;
   -ms-grid-columns: (1fr)[7];
       grid-template-columns: repeat(7, 1fr);
-  -ms-grid-rows: (7vw)[20];
-      grid-template-rows: repeat(20, 7vw);
+  -ms-grid-rows: (7vw)[23];
+      grid-template-rows: repeat(23, 7vw);
   grid-auto-rows: 5vw;
   grid-gap: 15px;
 }
@@ -81,7 +81,7 @@
   grid-column-end: 3;
   -ms-grid-row: 1;
       grid-row-start: 1;
-  grid-row-end: 5;
+  grid-row-end: 6;
 }
 
 .lifeStyle-container__grid__galeryOne__galeryTwo {
@@ -90,7 +90,7 @@
   grid-column-end: 5;
   -ms-grid-row: 1;
       grid-row-start: 1;
-  grid-row-end: 5;
+  grid-row-end: 6;
 }
 
 .lifeStyle-container__grid__galeryOne__galeryTwo__galeryThree {
@@ -99,78 +99,78 @@
   grid-column-end: 8;
   -ms-grid-row: 1;
       grid-row-start: 1;
-  grid-row-end: 7;
+  grid-row-end: 8;
 }
 
 .lifeStyle-container__grid__galeryOne__galeryTwo__galeryThree__galeryFour {
   -ms-grid-column: 1;
       grid-column-start: 1;
   grid-column-end: 3;
-  -ms-grid-row: 5;
-      grid-row-start: 5;
-  grid-row-end: 9;
+  -ms-grid-row: 6;
+      grid-row-start: 6;
+  grid-row-end: 11;
 }
 
 .lifeStyle-container__grid__galeryOne__galeryTwo__galeryThree__galeryFour__galeryFive {
   -ms-grid-column: 3;
       grid-column-start: 3;
   grid-column-end: 5;
-  -ms-grid-row: 5;
-      grid-row-start: 5;
-  grid-row-end: 9;
+  -ms-grid-row: 6;
+      grid-row-start: 6;
+  grid-row-end: 11;
 }
 
 .lifeStyle-container__grid__galeryOne__galeryTwo__galeryThree__galeryFour__galeryFive__galerySix {
   -ms-grid-column: 5;
       grid-column-start: 5;
   grid-column-end: 8;
-  -ms-grid-row: 7;
-      grid-row-start: 7;
-  grid-row-end: 14;
+  -ms-grid-row: 8;
+      grid-row-start: 8;
+  grid-row-end: 15;
 }
 
 .lifeStyle-container__grid__galeryOne__galeryTwo__galeryThree__galeryFour__galeryFive__galerySix__galerySeven {
   -ms-grid-column: 1;
       grid-column-start: 1;
   grid-column-end: 5;
-  -ms-grid-row: 9;
-      grid-row-start: 9;
-  grid-row-end: 14;
+  -ms-grid-row: 11;
+      grid-row-start: 11;
+  grid-row-end: 15;
 }
 
 .lifeStyle-container__grid__galeryOne__galeryTwo__galeryThree__galeryFour__galeryFive__galerySix__galerySeven__galeryEight {
   -ms-grid-column: 4;
       grid-column-start: 4;
   grid-column-end: 6;
-  -ms-grid-row: 14;
-      grid-row-start: 14;
-  grid-row-end: 18;
+  -ms-grid-row: 15;
+      grid-row-start: 15;
+  grid-row-end: 20;
 }
 
 .lifeStyle-container__grid__galeryOne__galeryTwo__galeryThree__galeryFour__galeryFive__galerySix__galerySeven__galeryEight__galeryNine {
   -ms-grid-column: 6;
       grid-column-start: 6;
   grid-column-end: 8;
-  -ms-grid-row: 14;
-      grid-row-start: 14;
-  grid-row-end: 18;
+  -ms-grid-row: 15;
+      grid-row-start: 15;
+  grid-row-end: 20;
 }
 
 .lifeStyle-container__grid__galeryOne__galeryTwo__galeryThree__galeryFour__galeryFive__galerySix__galerySeven__galeryEight__galeryNine__galeryTen {
   -ms-grid-column: 1;
       grid-column-start: 1;
   grid-column-end: 4;
-  -ms-grid-row: 14;
-      grid-row-start: 14;
-  grid-row-end: 20;
+  -ms-grid-row: 15;
+      grid-row-start: 15;
+  grid-row-end: 22;
 }
 
 .lifeStyle-container__grid__galeryOne__galeryTwo__galeryThree__galeryFour__galeryFive__galerySix__galerySeven__galeryEight__galeryNine__galeryTen__galeryEleven {
-  -ms-grid-column: 5;
-      grid-column-start: 5;
+  -ms-grid-column: 4;
+      grid-column-start: 4;
   grid-column-end: 8;
-  -ms-grid-row: 18;
-      grid-row-start: 18;
+  -ms-grid-row: 20;
+      grid-row-start: 20;
 }
 
 .image {
@@ -192,8 +192,8 @@
   height: auto;
   -ms-grid-columns: (1fr)[10];
       grid-template-columns: repeat(10, 1fr);
-  -ms-grid-rows: (5vw)[30];
-      grid-template-rows: repeat(30, 5vw);
+  -ms-grid-rows: (5vw)[35];
+      grid-template-rows: repeat(35, 5vw);
   grid-gap: 15px;
 }
 
@@ -294,6 +294,39 @@
   -ms-grid-row: 19;
       grid-row-start: 19;
   grid-row-end: 25;
+}
+
+.portrait-container__grid__galeryOneP__galeryTwoP__galeryThreeP__galeryFourP__galeryFiveP__galerySixP__galerySevenP__galeryEightP__galeryNineP__galeryTenP__galeryElevenP__galeryTwelve {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 5;
+  -ms-grid-row: 25;
+      grid-row-start: 25;
+  grid-row-end: 33;
+}
+
+.portrait-container__grid__galeryOneP__galeryTwoP__galeryThreeP__galeryFourP__galeryFiveP__galerySixP__galerySevenP__galeryEightP__galeryNineP__galeryTenP__galeryElevenP__galeryTwelve__galeryTheirteen {
+  -ms-grid-column: 5;
+      grid-column-start: 5;
+  grid-column-end: 8;
+  -ms-grid-row: 25;
+      grid-row-start: 25;
+  grid-row-end: 31;
+}
+
+.portrait-container__grid__galeryOneP__galeryTwoP__galeryThreeP__galeryFourP__galeryFiveP__galerySixP__galerySevenP__galeryEightP__galeryNineP__galeryTenP__galeryElevenP__galeryTwelve__galeryTheirteen__galeryFourteen {
+  grid-column-end: 11;
+  -ms-grid-column: 8;
+      grid-column-start: 8;
+  -ms-grid-row: 25;
+      grid-row-start: 25;
+  grid-row-end: 31;
+}
+
+.portrait-container__grid__galeryOneP__galeryTwoP__galeryThreeP__galeryFourP__galeryFiveP__galerySixP__galerySevenP__galeryEightP__galeryNineP__galeryTenP__galeryElevenP__galeryTwelve__galeryTheirteen__galeryFourteen__galeryFifteen {
+  -ms-grid-column: 5;
+      grid-column-start: 5;
+  grid-column-end: 11;
 }
 
 .contact-container {
