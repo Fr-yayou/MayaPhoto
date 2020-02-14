@@ -1,6 +1,7 @@
 .lifeStyle-container{
     margin-left:300px;
-    margin-right:50px;
+    margin-right:15px;
+    padding-top: 15px;
     &__grid{
             display: grid;
             width: 100%;
@@ -67,12 +68,6 @@
                                                     grid-column-end:4;
                                                     grid-row-start:15;
                                                     grid-row-end:22;
-
-                                                    &__galeryEleven{
-                                                        grid-column-start: 4;
-                                                        grid-column-end: 8;
-                                                        grid-row-start: 20;
-                                                    }
 
                                                 }
 

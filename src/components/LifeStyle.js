@@ -9,44 +9,40 @@ import Image7 from '../assets/lifeStyle-Compress/DSC_0318.jpg';
 import Image8 from '../assets/lifeStyle-Compress/DSC_0218-2.jpg';
 import Image9 from '../assets/lifeStyle-Compress/IMG_0056.jpg';
 import Image10 from '../assets/lifeStyle-Compress/fullsizeoutput_1df1.jpg';
-import Image11 from '../assets/lifeStyle-Compress/2.png';
 
 function LifeStyle() {
     return (
         <div className='lifeStyle-container'>
             <div className='lifeStyle-container__grid'>
                 <div className='lifeStyle-container__grid__galeryOne'>
-                <img className='image' src={Image1} alt='picture-one'></img>
+                <img className='image' src={Image1} alt='Lf1'/>
                 </div>
                 <figure className='lifeStyle-container__grid__galeryOne__galeryTwo'>
-                   <img className='image' src={Image2} alt='picture-two'></img> 
+                   <img className='image' src={Image2} alt='Lf2'/>
                 </figure>
                 <figure className='lifeStyle-container__grid__galeryOne__galeryTwo__galeryThree'>
-                    <img className='image' src={Image3} alt='picture-three'></img>
+                    <img className='image' src={Image3} alt='Lf3'/>
                 </figure>
                 <figure className='lifeStyle-container__grid__galeryOne__galeryTwo__galeryThree__galeryFour'>
-                    <img className='image' src={Image4} alt='picture-three'></img>
+                    <img className='image' src={Image4} alt='Lf4'/>
                 </figure>
                 <figure className='lifeStyle-container__grid__galeryOne__galeryTwo__galeryThree__galeryFour__galeryFive'>
-                    <img className='image' src={Image5} alt='picture-three'></img>
+                    <img className='image' src={Image5} alt='Lf5'/>
                 </figure>
                 <figure className='lifeStyle-container__grid__galeryOne__galeryTwo__galeryThree__galeryFour__galeryFive__galerySix'>
-                    <img className='image' src={Image6} alt='picture-three'></img>
+                    <img className='image' src={Image6} alt='Lf6 '/>
                 </figure>
                 <figure className='lifeStyle-container__grid__galeryOne__galeryTwo__galeryThree__galeryFour__galeryFive__galerySix__galerySeven'>
-                    <img className='image' src={Image7} alt='picture-three'></img>
+                    <img className='image' src={Image7} alt='Lf7'/>
                 </figure>
                 <figure className='lifeStyle-container__grid__galeryOne__galeryTwo__galeryThree__galeryFour__galeryFive__galerySix__galerySeven__galeryEight'>
-                    <img className='image' src={Image8} alt='picture-three'></img>
+                    <img className='image' src={Image8} alt='Lf8'/>
                 </figure>
                 <figure className='lifeStyle-container__grid__galeryOne__galeryTwo__galeryThree__galeryFour__galeryFive__galerySix__galerySeven__galeryEight__galeryNine'>
-                    <img className='image' src={Image9} alt='picture-three'></img>
+                    <img className='image' src={Image9} alt='Lf9'/>
                 </figure>
                 <figure className='lifeStyle-container__grid__galeryOne__galeryTwo__galeryThree__galeryFour__galeryFive__galerySix__galerySeven__galeryEight__galeryNine__galeryTen'>
-                    <img className='image' src={Image10} alt='picture-three'></img>
-                </figure>
-                <figure className='lifeStyle-container__grid__galeryOne__galeryTwo__galeryThree__galeryFour__galeryFive__galerySix__galerySeven__galeryEight__galeryNine__galeryTen__galeryEleven'>
-                    <img className='image' src={Image11} alt='picture-three'></img>
+                    <img className='image' src={Image10} alt='Lf10'/>
                 </figure>
             </div>
         </div>

@@ -2,28 +2,107 @@
     margin-left:300px;
     margin-right:50px;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+
 
 }
 
 .container-description-text{
-    width: 30%;
-    margin-top: 60px;
+    margin-top: 160px;
+    width: 70%;
+    text-align: center;
 }
 
 .container-form{
     width: 40%;
     margin-top: 60px;
+    width: 70%;
 
     &__submit{
-        margin-left: 20px;
+        margin-left: 15px;
 
         &__containerLabel{
             display: flex;
             flex-direction: column;
+            margin-bottom: 15px;
+
+            &__btn{
+                text-align: center;
+            }
         }
     }
 }
 
 #containerName{
     display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    justify-content: space-between
+}
+#lastName{
+    width: 30%;
+    border-radius:6px;
+    border:1px solid #FFA500;
+    outline: none;
+    height: 30px;
+}
+#name{
+    width: 30%;
+    border-radius:6px;
+    border:1px solid #FFA500;
+    outline: none;
+    height: 30px;
+}
+
+span{
+    color: #FFA500
+}
+#submitBtn{
+    width:35%;
+    background-color: #FFA500;
+    border-radius: 6px;
+    outline: none;
+    height: 30px;
+    border:1px solid #FFA500;
+
+}
+#HowDidYou{
+    border-radius:6px;
+    border:1px solid #FFA500;
+    outline: none;
+    height: 30px;
+
+}
+#email{
+    border-radius:6px;
+    border:1px solid #FFA500;
+    outline: none;
+    height: 30px;
+}
+#yourStory{
+    border-radius:6px;
+    border:1px solid #FFA500;
+    outline: none;
+    height: 30px;
+    border:1px solid #FFA500;
+}
+#yourStory:hover{
+    background-color: white;
+}
+#email:hover{
+    background-color: white;
+}
+#HowDidYou:hover{
+    background-color: white;
+}
+#name:hover{
+    background-color: white;
+}
+#lastName:hover{
+    background-color: white;
+}
+#submitBtn:hover{
+    background-color: white;
+    color:#FFA500;
 }

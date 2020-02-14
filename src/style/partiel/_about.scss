@@ -1,3 +1,28 @@
 .about-container{
     margin-left:300px;
+    padding-top:165px;
+    display: flex;
+
+}
+.container-picture{
+    width:50%;
+}
+.text-container{
+    width: 65%;
+    text-align: center;
+    margin-right:15px;
+}
+
+.text{
+    line-height:2.1;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.pic-container{
+    width: 35%;
+
+    &__pic{
+        width: 100%;
+        padding-right:15px;
+    }
 }
