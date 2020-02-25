@@ -5,7 +5,7 @@
 }
 
 .nav-container__link {
-  margin-left: 110px;
+  margin-left: 125px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -26,7 +26,7 @@
 }
 
 .nav-container__link__li__home__icon {
-  margin-left: 95px;
+  margin-left: 105px;
 }
 
 .nav-container__link__li__home:hover {
@@ -50,7 +50,7 @@
 }
 
 #logo {
-  height: 200px;
+  height: 250px;
   margin-left: 35px;
   margin-top: 20px;
 }
