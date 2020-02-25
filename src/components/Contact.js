@@ -8,7 +8,7 @@ function Contact() {
 </p>
             </div>
             <div className='container-form'>
-                <form className='container-form__submit'>
+                <form className='container-form__submit'data-netlify="true" method="POST" >
                     <div id='containerName'>
                         <label>First Name *</label>
                         <input id="name" type='text' name='firstName' />
