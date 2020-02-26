@@ -20,7 +20,7 @@ class Contact extends Component {
     handleSubmit = e => {
         fetch("/", {
             method: "POST",
-            headers: { "Content-Type": "application/x-www-form-urlencoded" },
+            headers: { "Content-Type": "https://affectionate-ritchie-74fc43.netlify.com/" },
             body: encode({ "form-name": "contact", ...this.state })
         })
             .then(() => alert("Success!"))
