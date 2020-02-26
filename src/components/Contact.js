@@ -20,13 +20,19 @@ class Contact extends Component {
     handleSubmit = e => {
         fetch("/", {
             method: "POST",
-            headers: { "Content-Type": "https://affectionate-ritchie-74fc43.netlify.com/" },
+            headers: { "Content-Type": "application/x-www-form-urlencoded" },
             body: encode({ "form-name": "contact", ...this.state })
         })
             .then(() => alert("Success!"))
             .catch(error => alert(error));
 
         e.preventDefault();
+        firstName = '',
+        lastName = '',
+        email ='',
+        description ='',
+        networking ='',
+
     };
 
     handleChange = e => this.setState({ [e.target.name]: e.target.value });
@@ -38,7 +44,7 @@ class Contact extends Component {
                     <p>Thank you for taking interest in working with me! My sessions start at <span>$250.00.</span>. Please tell me a little more about yourself and what you hope to capture. You may either fill out the contact form or email me at <span>mayacmartin@gmail.com</span></p>
                 </div>
                 <div className='container-form'>
-                    <form className='container-form__submit' onSubmit={this.handleSubmit} data-netlify="true" data-netlify-honeypot="bot-field" >
+                    <form className='container-form__submit'  onSubmit={this.handleSubmit} data-netlify="true" data-netlify-honeypot="bot-field" >
                         <div id='containerName'>
                             <label>First Name *</label>
                             <input id="name" type='text' name='firstName' value={firstName} onChange={this.handleChange} />
