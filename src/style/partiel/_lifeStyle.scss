@@ -1,3 +1,23 @@
+//MOBILE//
+.image{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+.lifeStyle-container{
+    &__grid{
+        margin-left: 15px;
+        margin-right: 15px;
+        padding-top: 150px;
+    }
+}
+
+
+//DESKTOP//
+
+ @media screen and (min-width:1339px){
+
 .lifeStyle-container{
     margin-left:300px;
     margin-right:15px;
@@ -10,6 +30,7 @@
             grid-template-rows: repeat(23,7vw);
             grid-auto-rows: 5vw;
             grid-gap: 15px;
+            padding-top: 0px;
 
             &__galeryOne{
                 grid-column-start: 1;
@@ -88,9 +109,10 @@
             }
 
             }
-}
-.image{
-    width: 100%;
-    min-height: 100%;
-    object-fit: cover;
-}
+    }
+    .image{
+        width: 100%;
+        min-height: 100%;
+        object-fit: cover;
+    }
+ }

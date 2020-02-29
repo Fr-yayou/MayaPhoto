@@ -1,11 +1,57 @@
 
+//Mobile//
+
+#logo{
+    height: 120px;
+    }
+
 .nav-container{
+        width: 100%;
+        height: 120px;
+        display: flex;
+        position: fixed;
+    &__link{
+        list-style-type: none;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+
+
+        &__li{
+            margin-top: 20px;
+
+            &__home{
+                 text-decoration: none;
+                &__icon{
+                    display: none;
+                }
+
+
+            }
+            &__home:hover{
+                color:#FFA500;
+
+            }
+            }
+
+
+        }
+    }
+
+//Destop//
+
+
+@media screen and (min-width:1339px){
+    .nav-container{
     position: fixed;
     height: 100%;
     width: 300px;
+    display: flex;
+    flex-direction: column;
 
     &__link{
-        margin-left:125px;
         display: flex;
         flex-direction: column;
         list-style-type: none;
@@ -18,7 +64,8 @@
                 text-decoration: none;
 
                 &__icon{
-                    margin-left:105px;
+                    display: flex;
+                    justify-content: center;
                 }
 
 
@@ -26,31 +73,32 @@
             &__home:hover{
                 color:#FFA500;
 
+                }
             }
-        }
 
+
+        }
+    }
+
+
+
+    #instagram{
+    // margin-left:15px;
 
     }
-}
+    #instagram:hover{
+        height:20px;
 
-
-
-#instagram{
-    margin-left:15px;
-
-}
-#instagram:hover{
-    height:20px;
-
-}
-#linkdin{
-    margin-left:15px;
-}
-#linkdin:hover{
-    height:20px
-}
-#logo{
-    height: 250px;
-    margin-left: 35px;
-    margin-top: 20px
+    }
+    #linkdin{
+        margin-left:15px;
+    }
+    #linkdin:hover{
+     height:20px
+    }
+    #logo{
+    height: 200px;
+    margin-left: 50px;
+    margin-top: 20px;
+    }
 }
