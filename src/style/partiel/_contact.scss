@@ -1,9 +1,126 @@
 //Phone//
 
+.contact-container{
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.container-description-text{
+    text-align: center;
+    padding-top: 130px;
+    margin-top: 30px;
+    
+}
+span{
+    color: #FFA500
+}
+.container-form{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    margin-top: 30px;
+    width: 100%;
 
 
 
+    &__submit{
+        width: 100%;
+
+        &__containerLabel{
+            display:flex;
+            flex-direction:column;
+            width: 100%;
+            margin-top: 25px;
+
+            &__btn{
+                display: flex;
+                justify-content: center;
+                margin-top: 25px;
+
+            }
+
+        }
+    }
+
+}
+#containerName{
+    display:flex;
+    flex-direction:column;
+
+}
+#submitBtn{
+    width: 50%;
+}
+#lastName{
+    border-radius:6px;
+    border:1px solid #FFA500;
+    outline: none;
+    height: 40px;
+    text-indent: 10px;
+}
+#name{
+    border-radius:6px;
+    border:1px solid #FFA500;
+    outline: none;
+    height: 40px;
+    text-indent: 10px;
+}
+#name:hover{
+    background-color: white;
+}
+#email{
+    border-radius:6px;
+    border:1px solid #FFA500;
+    outline: none;
+    height: 40px;
+    text-indent: 10px;
+}
+#yourStory{
+    border-radius:6px;
+    border:1px solid #FFA500;
+    outline: none;
+    height: 40px;
+    border:1px solid #FFA500;
+    text-indent: 10px;
+
+}
+#yourStory:hover{
+    background-color: white;
+}
+#HowDidYou{
+    border-radius:6px;
+    border:1px solid #FFA500;
+    outline: none;
+    height: 40px;
+    text-indent: 10px;
+
+}
+#submitBtn:hover{
+    background-color: white;
+    color:#FFA500;
+}
+#submitBtn{
+    background-color: #FFA500;
+    border-radius: 6px;
+    outline: none;
+    height: 40px;
+    border:1px solid #FFA500;
+
+}
+#lastName:hover{
+    background-color: white;
+}
+#email:hover{
+    background-color: white;
+}
+#HowDidYou:hover{
+    background-color: white;
+}
+#name{
+    margin-bottom: 25px;
+}
 //Desktop//
+@media screen and (min-width:1339px){
 .contact-container{
     margin-left:300px;
     margin-right:50px;
@@ -18,6 +135,7 @@
     margin-top: 160px;
     width: 70%;
     text-align: center;
+    padding-top: 0px;
 }
 
 .container-form{
@@ -26,12 +144,13 @@
     width: 70%;
 
     &__submit{
-        margin-left: 15px;
 
         &__containerLabel{
             display: flex;
             flex-direction: column;
+            width: 100%;
             margin-bottom: 15px;
+            margin-top: 0px;
 
             &__btn{
                 text-align: center;
@@ -43,7 +162,7 @@
 #containerName{
     display: flex;
     justify-content: center;
-    margin-bottom: 15px;
+    flex-direction: unset;
     justify-content: space-between
 }
 #lastName{
@@ -111,4 +230,6 @@ span{
 #submitBtn:hover{
     background-color: white;
     color:#FFA500;
+}
+
 }
