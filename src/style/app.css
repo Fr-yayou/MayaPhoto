@@ -27,10 +27,12 @@
 
 .nav-container__link__li {
   margin-top: 20px;
+  list-style-type: none;
 }
 
 .nav-container__link__li__home {
   text-decoration: none;
+  outline: none;
 }
 
 .nav-container__link__li__home__icon {
@@ -98,20 +100,23 @@
   }
 }
 
+.about-container {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
 .pic-container {
   height: 100%;
   width: 100%;
+  padding-top: 120px;
 }
 
 .pic-container__pic {
   max-width: 100%;
-  margin-left: 15px;
-  margin-right: 15px;
 }
 
 .text-container {
-  margin-left: 15px;
-  margin-right: 15px;
+  margin-bottom: 20px;
 }
 
 @media screen and (min-width: 1339px) {
@@ -137,6 +142,7 @@
   }
   .pic-container {
     width: 35%;
+    padding-top: 0px;
   }
   .pic-container__pic {
     width: 100%;
@@ -155,7 +161,7 @@
 .lifeStyle-container__grid {
   margin-left: 15px;
   margin-right: 15px;
-  padding-top: 150px;
+  padding-top: 120px;
 }
 
 @media screen and (min-width: 1339px) {
@@ -266,7 +272,7 @@
 }
 
 .portrait-container__grid {
-  padding-top: 150px;
+  padding-top: 120px;
   margin-left: 15px;
   margin-right: 15px;
 }

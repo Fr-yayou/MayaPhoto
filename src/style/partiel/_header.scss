@@ -21,9 +21,11 @@
 
         &__li{
             margin-top: 20px;
+            list-style-type: none;
 
             &__home{
                  text-decoration: none;
+                 outline: none;
                 &__icon{
                     display: none;
                 }

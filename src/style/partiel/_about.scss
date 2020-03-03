@@ -1,19 +1,22 @@
 
 //Mobile//
 
+.about-container{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
 .pic-container{
     height: 100%;
     width: 100%;
+    padding-top: 120px;
 
     &__pic{
         max-width: 100%;
-        margin-left:15px;
-        margin-right:15px;
     }
 }
 .text-container{
-    margin-left: 15px;
-    margin-right:15px;
+    margin-bottom: 20px;
 
 }
 
@@ -44,6 +47,7 @@
 }
 .pic-container{
     width: 35%;
+    padding-top: 0px;
 
     &__pic{
         width: 100%;
